@@ -11,6 +11,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
         } else {
             echo "<p>Hello {$_SERVER['PHP_AUTH_USER']} Welcome !!!!!!.</p>";
             echo "<p>You entered {$_SERVER['PHP_AUTH_PW']} as your password.</p>";
+            echo "<h1>You entered {$_SERVER['PHP_AUTH_USER']}</h1>";
         }
 
 }
