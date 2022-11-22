@@ -1,5 +1,6 @@
 <?php
-$login = 'test_login';
+
+$login = ['renato', 'nathan', 'creuza', 'fernando','rubens'];
 $pass = 'test_pass';
 
 if(($_SERVER['PHP_AUTH_PW']!= $pass || $_SERVER['PHP_AUTH_USER'] != $login)|| !$_SERVER['PHP_AUTH_USER'])
